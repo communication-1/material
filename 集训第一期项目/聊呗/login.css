@@ -1,0 +1,70 @@
+body{
+	background-image: url(img/bgrobot3.jpg);
+}
+
+#loginall{
+	margin:10px;
+	width:640px;
+	height: 1200px;
+	background-color: yellow;
+	text-align:       center;
+	border: solid 5px gray;
+	
+	font-family: 微软雅黑;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1{
+	height: 150px;
+	display: table;
+	margin-right: auto;
+	margin-left: auto;	
+	font-size: 5em;
+	font-family: 华文彩云;
+}
+
+h1 p{
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+
+h2{
+	height: 50px;
+	margin-top: 50px;
+	color: blue;
+}
+
+p.robot,p.man{
+	font-size: 1.5em;
+}
+
+#man{
+	margin-top: 80px;
+}
+
+#yourid{
+	margin-top: 50px;
+}
+
+img:hover{
+	width: 220px;
+	height: 220px;
+
+}
+
+.imgBox{
+	width: 220px;
+	height: 220px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+#robotOnline span{
+	color: red;
+}
+
+#manOnline span{
+	color: blue;
+}

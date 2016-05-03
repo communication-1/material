@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I'm robot</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="chat.css">
+	<link rel="stylesheet" type="text/css" href="chatrobot.css">
+</head>
+<body>
+	<div id="chatall">
+
+		<div class="tableContainer">
+		<nav class="top">
+			<p>
+				<a href="chatman.html" >人 类</a>
+			</p>
+			<p class="selected">
+				<a href="chatrobot.html" >机 器 人</a>
+			</p>	
+		</nav>
+		</div>
+
+		<section class="chat">
+			<div class="chatingRobot" id="content" style=" height:800px; overflow:auto">
+				
+			</div>
+		<div class="tableContainer" >
+			<nav class="bottom">
+			<p>
+				<a href="login.html">切 掉 ！</a> 
+			</p>
+			<p>
+				hold 住 !
+			</p>			
+			</nav>			
+		</div>			
+			<div>
+				<span id="status">Connecting...</span><br>
+				<textarea name="robotchat" rows="5" cols="64" id="input" disabled="disabled" onclick="tob();"></textarea>
+			</div>
+		</section>	
+	</div>
+        <script src="./jquery-2.2.2.js"></script>
+        <script src="./client.js"></script>
+		<script type="text/javascript"> //点击输入框文本跳到最底部
+			function tob()
+			{
+			var divBottom = document.getElementById('content');
+			divBottom.scrollTop = divBottom.scrollHeight;
+			}
+		</script>
+
+
+<!-- 实现自动滚动到底部
+        <script>
+			
+			window.onload = function(){
+			    var s = setInterval("sc()", 100);
+			}
+			function sc(){
+			    var div = document.getElementById("content");
+	
+			    div.scrollTop = div.scrollHeight;
+			}
+		</script>
+
+-->
+       
+</body>
+</html>

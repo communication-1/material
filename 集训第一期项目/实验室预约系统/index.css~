@@ -1,0 +1,28 @@
+body{
+  background:url(images/img2.jpg);
+}
+#subject{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: lightblue;
+    margin-top: 3%;
+}
+#head{
+    text-align: center;
+    border: 0px solid black;
+}
+#second{
+    margin-left: 5%;
+    border: 0px solid black;
+}
+#third{
+    text-align: center;
+    border: 0px solid black;
+}
+#tab{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}

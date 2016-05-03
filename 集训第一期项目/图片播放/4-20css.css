@@ -1,0 +1,35 @@
+#nav{width: 800px;height: 500px;margin: auto;position: relative;top: -370px;}
+#inner{width: 300px;height: 200px;position: relative;overflow: hidden;border-radius: 20px 20px;float: left;}
+#inner1{width: 200px;height: 200px;position: relative;overflow: hidden;border-radius: 20px 20px;float: right;}
+#inner2{width: 500px;height: 300px;position: relative;overflow: hidden;border-radius: 20px 20px;}
+#inner3{width: 300px;height: 500px;position: relative;overflow: hidden;border-radius: 20px 20px;}
+#innercontent{width: 2700px;height: 200px;position: absolute;top:0px;left: 0px;}
+#innercontent1{width: 1800px;height: 200px;position: absolute;top:0px;left: 0px;}
+#innercontent2{width: 4500px;height: 300px;position: absolute;top:0px;left: 0px;}
+#innercontent3{width: 2700px;height: 500px;position: absolute;top:0px;left: 0px;}
+#innercontent li{ width: 300px;height: 200px;float: left;}
+#innercontent1 li{width: 200px;height: 200px;float: left;}
+#innercontent2 li{width: 500px;height: 300px;float: left;}
+#innercontent3 li{width: 300px;height: 500px;float: left;}
+.cw{width: 300px;height: 200px;}.mn{width: 200px;height: 200px;}.fj{width: 500px;height: 300px;}.jz{width: 300px;height: 500px;}
+#prev,#next{width: 50px;height: 30px;background-color: blue;position: absolute;top:530px;text-align: center;
+    line-height: 30px;font-size: 30px;font-weight: bolder;color: white;border-radius: 10px 10px;opacity: 0.2;}
+#prev{left: 20px;}#next{left: 100px;}
+#prev:hover,#next:hover{opacity: 0.8;cursor: pointer;}
+#left{width: 500px;height: 500px;float: left;}#right{width: 300px;height: 500px;float: right;}
+#top{width: 500px;height: 200px;}#bottom{width: 500px;height: 300px;}
+#header{width: 800px;height: 45px;margin:auto;position: relative;top: 30px;border-radius: 10px 10px;opacity: 0.8;
+ }
+#header span{display: block; width: 160px;height: 45px;line-height: 45px;text-align: center;font-size: 25px;cursor: pointer;float: left;
+font-family: ¿¬Ìå;color: #D1FFDE;font-weight: bolder;background-color: #03FF19;border-radius: 20px 20px;opacity: 0.2;margin: auto; }
+#header span:hover{opacity: 1;}
+#header .on{background-color: cornflowerblue;opacity: 1;color: white;}
+#scroll{list-style: none;position: absolute;left: 60px;width: 100px;height: 400px;top: 100px;overflow: hidden;position: relative;top: 55px;border-radius: 10px 10px;}
+#to,#bo{text-align: center;width: 100px;height:20px; color: white;background-color: black;;
+    border-radius: 10px 10px;  opacity: 0.3;cursor: pointer;position: relative;}
+#to{position:absolute;top: 81px;left: 60px;}
+#bo{position: absolute;left: 60px;top:500px;}
+#bo:hover,#to:hover{background-color: crimson;opacity: 0.8;font-weight: bolder;}
+.photo{width: 100px;height: 80px;background-color: coral;text-align: center;line-height: 80px;}
+#photo{width: 100px;height: 2240px;position: absolute;top: 0px;left: 0px;}
+.xtx{width: 100px;height: 80px;}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实验室管理系统</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div id="subject">
+    <div id="head">
+        <h2>实验室预约管理</h2>
+    </div>
+    <div id="second">
+        <a href="about.php"><input type="button" value="上一周"></a>
+        <input type="button" value="下一周">
+    </div><br/>
+    <div id="third">
+        <table id="tab" border="1">
+            <tr>
+                <td></td>
+                <td>周一</td>
+                <td>周二</td>
+                <td>周三</td>
+                <td>周四</td>
+                <td>周五</td>
+                <td>周六</td>
+                <td>周天</td>
+            </tr>
+            <tr>
+                <td>上午</td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+            </tr>
+            <tr>
+                <td>下午<br></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+                <td>已占用<br><a href="service.html">可预约</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

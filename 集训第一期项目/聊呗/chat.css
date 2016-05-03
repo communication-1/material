@@ -1,0 +1,130 @@
+body{
+	background-image: url(img/bgrobot3.jpg);
+}
+
+#chatall{
+	margin:10px;
+	width:640px;
+	height: 1200px;
+	background-color: yellow;
+	text-align:       center;
+	border: solid 5px gray;
+	
+	font-family: 微软雅黑, Arial;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+div.tableContainer{
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	border-width: 0px;
+	padding: 0px;
+
+}
+
+nav.top, nav.bottom{
+	display: table-row;
+	margin:0px;
+	border-width: 0px;
+	padding: 0px;
+
+}
+
+nav p{
+	display: table-cell;
+	font-size: 2.5em;
+	vertical-align: middle;
+	width:295px;
+	height: 80px;
+	margin:0px;
+	border: solid 5px yellow;
+	
+	padding: 0px;
+	
+	background-color: gray;
+
+}
+
+p.selected{
+	background-color: yellow;
+}
+
+div.chatingMan{
+	height: 800px;
+	width: 600px;
+	margin: 20px 20px 20px 20px;
+	background-image: url(img/human6.jpg);
+	background-position: center;
+	text-align: center;
+}
+
+div.chatingRobot{
+	height: 800px;
+	width: 600px;
+	margin: 20px 20px 20px 20px;
+	background-image: url(img/robot6x.jpg);
+	background-position: center;
+	text-align: center;
+}
+
+a{
+	text-decoration:none;  /*超链接无下划线*/
+	color: black;
+
+}
+a:hover{
+	font-size: 1.2em;  
+	font-weight: ;
+}
+
+div#content p:nth-child(odd){
+	width: 350px;
+	background-color: rgba(179,232,102,0.7);
+	border: solid 1px gray;
+	border-radius: 5px;	
+	margin-left: 220px;
+	margin-right: 30px;
+	text-align: right;
+	font-size: 1.5em;
+}
+
+div#content p:nth-child(even){
+	width: 350px;
+	background-color: rgba(255,255,255,0.7);  
+	border: solid 1px gray;
+	border-radius: 5px;	
+	margin-right: 220px;
+	margin-left: 30px;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+#status{
+	font-family: Arial, 幼圆;
+	font-size: 1.5em;
+}
+
+
+	::-webkit-scrollbar {
+		  width: 15px;
+	} /* 这是针对缺省样式 (必须的) */
+
+  	::-webkit-scrollbar-track {
+		  background-color: gray;
+	} /* 滚动条的滑轨背景颜色 */
+
+	::-webkit-scrollbar-thumb {
+		  background-color: rgba(255, 255, 255, 0.3); 
+	} /* 滑块颜色 */
+
+	::-webkit-scrollbar-button {
+		  background-color: #7c2929;
+	} /* 滑轨两头的监听按钮颜色 */
+
+	::-webkit-scrollbar-corner {
+		  background-color: black;
+	} /* 横向滚动条和纵向滚动条相交处尖角的颜色 */
